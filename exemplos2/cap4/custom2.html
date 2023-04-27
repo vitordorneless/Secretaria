@@ -1,0 +1,75 @@
+<html>
+    <body>
+        <form method="POST" action="custom2.php">
+            <table align="center" width="500px" border="1"
+                   style="border-collapse:collapse" cellpadding=5>
+                <tr bgcolor="#dfdfdf">
+                    <td colspan=2>Relatório de produtos</td>
+                </tr>
+                
+                <tr bgcolor="#AEB5D8">
+                    <td colspan=2>Colunas selecionadas</td>
+                </tr>
+                <tr>
+                    <td>Colunas: </td>
+                    <td>
+                        <select name="colunas[]" multiple="multiple" size=4 style="width:250px">
+                            <option value="produto.id">Código</option>
+                            <option value="produto.descricao">Descrição</option>
+                            <option value="produto.preco_custo">Preço de custo</option>
+                            <option value="produto.estoque">Estoque</option>
+                            <option value="produto.unidade">Unidade</option>
+                            <option value="produto.preco_venda">Preço de venda</option>
+                            <option value="fabricante.id">Código Fabricante</option>
+                            <option value="fabricante.nome">Nome Fabricante</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr bgcolor="#AEB5D8">
+                    <td colspan=2>Ordenação</td>
+                </tr>
+                <tr>
+                    <td>Ordem: </td>
+                    <td>
+                        <select name="ordem" style="width:250px">
+                            <option value="produto.id">Código</option>
+                            <option value="produto.descricao">Descrição</option>
+                            <option value="produto.preco_custo">Preço de custo</option>
+                            <option value="produto.estoque">Estoque</option>
+                            <option value="produto.unidade">Unidade</option>
+                            <option value="produto.preco_venda">Preço de venda</option>
+                            <option value="fabricante.id">Código Fabricante</option>
+                            <option value="fabricante.nome">Nome Fabricante</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr bgcolor="#AEB5D8">
+                    <td colspan=2>Filtros</td>
+                </tr>
+                
+                <tr>
+                    <td>Produto: </td>
+                    <td><input type="text" name="produto"></td>
+                </tr>
+                <tr>
+                    <td>Fabricante: </td>
+                    <td><input type="text" name="fabricante"></td>
+                </tr>
+                <tr>
+                    <td>Estoque mínimo: </td>
+                    <td><input type="text" name="estoquemin"></td>
+                </tr>
+                <tr>
+                    <td>Estoque máximo: </td>
+                    <td><input type="text" name="estoquemax"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

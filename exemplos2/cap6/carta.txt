@@ -1,0 +1,14 @@
+
+$local, $data
+
+Ao Sr(a) $nome
+$endereco
+$bairro
+$municipio-$uf
+$cep
+
+Prezado(a) Senhor(a)
+Vimos pela presente informar a V.sa. que se encontra em aberto, junto à nossa empresa, um débito não quitado referente à <b>vendas de mercadorias</b>. Tendo em vista que até o presente momento não acusamos o recebimento de referida(s) prestação(ões), solicitamos a V.sa. a <u>quitação</u> desta ou seu comparecimento em nosso estabelecimento a fim de regularizar tal pendência no prazo máximo de 5 dias.
+Informamos ainda que V. Sa. encontra-se constituído em mora para todos os efeitos legais a partir do recebimento da presente notificação, conforme os termos do artigo 397 da Lei 10.406/02. Solicitamos a V.sa. desconsiderar a presente caso o referido débito já tenha sido quitado.
+Respeitosamente,
+<b><i>$empresa</i></b>

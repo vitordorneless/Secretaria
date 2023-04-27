@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body{font:13px Arial, Helvetica, sans-serif; background-color:#fff;}
+
+.div-form{width:280px; height:550px; padding:20px; position:absolute; float:none; left:50%; top:50%; margin:-300px 0 0 -165px; border:5px solid #c0c0c0;}
+
+h1{text-transform:uppercase; font-size:20px; color:#fff; text-align:center; margin:-20px -20px 10px -20px; padding:5px 0; background:#c0c0c0; text-shadow:-1px 1px 1px #999; }
+
+form p{margin:5px 0 0 0;}
+
+form{font:13x Arial, Helvetica, sans-serif;}
+
+fieldset{border:0;}
+
+input, textarea{border:0; padding:3px; background-color:#fff; margin-bottom:5px; border:1px solid #c0c0c0;}
+
+input:focus, textarea:focus{border-color:#000;}
+
+textarea{overflow:auto; font:1.1em Arial, Helvetica, sans-serif;}
+
+.width233{width:233px;}

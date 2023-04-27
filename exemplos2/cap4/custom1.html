@@ -1,0 +1,92 @@
+<html>
+    <body>
+        <form method="POST" action="custom1.php">
+            <table align="center" width="500px" border="1"
+                   style="border-collapse:collapse" cellpadding=5>
+                <tr bgcolor="#dfdfdf">
+                    <td colspan=2>Relatório de pessoas</td>
+                </tr>
+                
+                <tr bgcolor="#AEB5D8">
+                    <td colspan=2>Colunas selecionadas</td>
+                </tr>
+                <tr>
+                    <td>Colunas: </td>
+                    <td>
+                        <select name="colunas[]" multiple="multiple" size=4 style="width:250px">
+                            <option value="pessoa.id">Código</option>
+                            <option value="pessoa.nome">Nome</option>
+                            <option value="pessoa.sexo">Sexo</option>
+                            <option value="pessoa.dt_nascimento">Nascimento</option>
+                            <option value="pessoa.telefone">Telefone</option>
+                            <option value="pessoa.email">Email</option>
+                            <option value="cidade.id">Código Cidade</option>
+                            <option value="cidade.nome">Nome Cidade</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr bgcolor="#AEB5D8">
+                    <td colspan=2>Ordenação</td>
+                </tr>
+                <tr>
+                    <td>Ordem: </td>
+                    <td>
+                        <select name="ordem" style="width:250px">
+                            <option value="pessoa.id">Código</option>
+                            <option value="pessoa.nome">Nome</option>
+                            <option value="pessoa.sexo">Sexo</option>
+                            <option value="pessoa.dt_nascimento">Nascimento</option>
+                            <option value="pessoa.telefone">Telefone</option>
+                            <option value="pessoa.email">Email</option>
+                            <option value="cidade.id">Código Cidade</option>
+                            <option value="cidade.nome">Nome Cidade</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr bgcolor="#AEB5D8">
+                    <td colspan=2>Filtros</td>
+                </tr>
+                
+                <tr>
+                    <td>Pessoa: </td>
+                    <td><input type="text" name="pessoa"></td>
+                </tr>
+                <tr>
+                    <td>Sexo: </td>
+                    <td>
+                        <select name="sexo">
+                            <option value=""></option>
+                            <option value="M">Masculino</option>
+                            <option value="F">Feminino</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Estado: </td>
+                    <td>
+                        <select name="estado">
+                            <option value=""></option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="PR">Paraná</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Cidade: </td>
+                    <td><input type="text" name="cidade"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
